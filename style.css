@@ -19,16 +19,63 @@
 
 .whitebackground {
     margin: 0px auto;
-    height: 100%;
     width: 89%;
-    background-color: hsl(0, 0%, 100%);
+    background-color:lightgrey;
     position: relative;
     bottom: 110px;
     border-radius: 10px;
-    padding:13px;
+    padding:20px;
 }
 
 .question{
     margin-bottom: 20px;
     margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    max-width: 250px;
 }
+
+.answer{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 13px ;
+    color: grey;
+}
+
+.FAQ1{
+    position: relative;
+}
+.FAQ1 .plus1{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.FAQ2{
+    position: relative;
+}
+.FAQ2 .plus2{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.FAQ3{
+    position: relative;
+}
+.FAQ3 .plus3{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.FAQ4{
+    position: relative;
+}
+.FAQ4 .plus4{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+
+
+
