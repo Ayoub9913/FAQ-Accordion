@@ -21,9 +21,6 @@
 }
 
 
-
-
-
 *{
     font-family: 'WorkSans-Regular', sans-serif;
     font-style: normal;
@@ -169,7 +166,7 @@
 
 
 
-@media screen  and (min-width:376px){
+@media screen  and (min-width:500px){
     .purplebackgrounddesktop{
         display: block;
         width: 90%;
@@ -189,6 +186,16 @@
 
     }
     
+}
+
+
+@media screen and (max-width:500px)
+{
+    .purplebackground{
+        display: block;
+        width: 100%;
+        height:100%;
+    }
 }
 
 
