@@ -56,7 +56,7 @@
 }
 .FAQ2 .plus2{
     position: absolute;
-    top: 5px;
+    top: 0.5px;
     right: 10px;
 }
 .FAQ3{
@@ -64,7 +64,7 @@
 }
 .FAQ3 .plus3{
     position: absolute;
-    top: 5px;
+    top: 10px;
     right: 10px;
 }
 .FAQ4{
@@ -75,6 +75,70 @@
     top: 5px;
     right: 10px;
 }
+
+.answer{
+    display: none;
+}
+
+
+.hidden{
+    display: none;
+}
+
+@keyframes moveText {
+    from { 
+        top: 0; 
+    }
+    to { 
+        top: 50%; 
+    }
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0.3; }
+    100% { opacity: 1; }
+  }
+
+.answer {
+    position: relative; /* Required for 'top' to work */
+}
+@keyframes moveText {
+    from { top: 0; }
+    to { top: 50%; }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Combined animation class */
+.combined-animation {
+    animation: moveText 1 forwards, fadeIn 1s;
+}
+
+
+@keyframes moveTextReverse {
+    from { top: 50%; }
+    to { top: 0; }
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.reverse-animation {
+    animation: moveTextReverse 1s forwards, fadeOut 1s;
+}
+
+
+
+
+
+
+
 
 
 
