@@ -7,11 +7,17 @@ plus1button.addEventListener('click', () => {
     answer1.classList.add('combined-animation');
     plus1button.style.display = "none";
     minus1button.style.display = "inline-block"; 
+    minus1button.style.position='absolute';
+    minus1button.style.top='5px';
+    minus1button.style.right='10px';
+
+
 });
 
 minus1button.addEventListener('click', () => {
     answer1.classList.remove('combined-animation');
     answer1.classList.add('reverse-animation');
+
 
     setTimeout(() => {
         answer1.style.display = "none"; 
@@ -31,6 +37,9 @@ plus2button.addEventListener('click', () => {
     answer2.classList.add('combined-animation');
     plus2button.style.display = "none";
     minus2button.style.display = "inline-block"; 
+    minus2button.style.position='absolute';
+    minus2button.style.top='0.5px';
+    minus2button.style.right='10px';
 });
 
 minus2button.addEventListener('click', () => {
@@ -56,6 +65,9 @@ plus3button.addEventListener('click', () => {
     answer3.classList.add('combined-animation');
     plus3button.style.display = "none";
     minus3button.style.display = "inline-block"; 
+    minus3button.style.position='absolute';
+    minus3button.style.top='10px';
+    minus3button.style.right='10px';
 });
 
 minus3button.addEventListener('click', () => {
@@ -80,6 +92,9 @@ plus4button.addEventListener('click', () => {
     answer4.classList.add('combined-animation');
     plus4button.style.display = "none";
     minus4button.style.display = "inline-block"; 
+    minus4button.style.position='absolute';
+    minus4button.style.top='5px';
+    minus4button.style.right='10px';
 });
 
 minus4button.addEventListener('click', () => {

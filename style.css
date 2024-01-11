@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+.purplebackground{
+    display: block;
+}
+
+.purplebackgrounddesktop{
+    display: none;
+}
+
 .star{
     display: inline-block;
     width: 20px;
@@ -135,7 +143,27 @@
 
 
 
+@media screen  and (min-width:376px){
+    .purplebackgrounddesktop{
+        display: block;
+        width: 90%;
+        height:100%;
+        margin: 0px auto;
+        box-shadow: 0px -10px 120px 2px rgba(0,0,0,.8);
+    }
+    .purplebackground{
+        display: none;
+    }
+    .question{
+        font-size: 17px;
+        max-width: 70%;
+    }
+    .whitebackground{
+        box-shadow: 0px -10px 120px 2px rgba(0,0,0,.8);
 
+    }
+    
+}
 
 
 
