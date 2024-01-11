@@ -1,5 +1,31 @@
+
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url('assets/fonts/static/WorkSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url('assets/fonts/static/WorkSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-SemiBold';
+    src: url('assets/fonts/static/WorkSans-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* 600 is semi-bold */
+    font-style: normal;
+}
+
+
+
+
+
 *{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'WorkSans-Regular', sans-serif;
     font-style: normal;
     margin: 0;
     padding: 0;
